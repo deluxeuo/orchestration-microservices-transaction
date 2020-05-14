@@ -13,6 +13,8 @@
 mvn clean </br>
 mvn install
 
+docker-compose -f docker-compose-infra.yml up --build
+
 ### Start transaction in saga by order post endpoint``
 
 POST Endpoint : http://localhost:8891/v1/orders/ </br>
